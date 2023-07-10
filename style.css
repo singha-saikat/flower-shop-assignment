@@ -33,7 +33,6 @@
   font-weight: 400;
   line-height: 30px;
   padding: 15px 0;
-  
 }
 .btn {
   width: 160px;
@@ -60,31 +59,60 @@
   font-weight: 400;
   line-height: 30px;
   padding-top: 15px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 .featured-section {
   width: 1900px;
- 
+  height: 930px;
+}
+.flower-img-conteinar {
+  width: 1440px;
+  /* height: 100vh; */
+  /* padding-left: 230px; */
+  display: flex;
+  gap: 20px;
+  padding-top: 45px;
+  margin: auto;
   
 }
-.pink-flower-box{
-    width: 550px;
-height: 450px;
-border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
-display: flex;
-justify-content: center;
-padding-top: 100px;
-
+.pink-flower-box {
+  width: 500px;
+  height: 450px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
-
-.flower-img-conteinar{
-    padding-left: 230px;
-    display: flex;
-    justify-content: space-evenly;
-}
-.flower-name{
-    padding-left: 150px;
-    padding-top: 20px;
+#middle-flower{
     
+background: rgba(5, 151, 160, 0.15);
+}
+#last-flower{
+        background: rgba(71, 125, 17, 0.15); 
+}
+.image-tittle{
+    display: flex;
+    gap: 390px;
+    padding-top: 20px;
+    }
+.first-name{
+    padding-left: 381px;
+}
+
+.featured-icon{
+    width: 1440px;
+    height: 320px;
+     margin: auto;
+    border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+display: flex;
+justify-content:space-around;
+align-items: center;
+}
+.first-icon{
+    width: 88px;
+height: 88px;
+
 }
