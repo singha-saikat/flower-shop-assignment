@@ -66,7 +66,7 @@
   height: 930px;
 }
 .flower-img-conteinar {
-  width: 1440px;
+  width: 80%;
   /* height: 100vh; */
   /* padding-left: 230px; */
   display: flex;
@@ -99,7 +99,7 @@
 }
 
 .featured-icon {
-  width: 1440px;
+  width: 80%;
   height: 320px;
   margin: auto;
   border-radius: 8px;
@@ -128,8 +128,68 @@
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
 }
+.hot-deal-description {
+  padding-top: 20px;
+  color: rgba(39, 39, 39, 0.6);
+  padding-bottom: 20px;
+}
 .folwer-img img {
   width: 318px;
   height: 420px;
   padding: 30px 20px;
+}
+.instra-conteinar {
+  width: 80%;
+  margin: auto;
+}
+.instra-info {
+  padding-top: 125px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.instra-description {
+  color: rgba(39, 39, 39, 0.6);
+  padding-top: 20px;
+}
+.instra-pictuers {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 125px;
+}
+.from-email-conteinar {
+  width: 80%;
+  height: 40vh;
+  margin: auto;
+  background-image: url(Rectangle\ 9.png);
+}
+.conteinar-properties h1 {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 120px;
+}
+.conteinar-properties p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  padding-top: 20px;
+}
+.email-from-info {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+.mail-input{
+  
+  background: #fff;
+  width: 700px;
+  border-radius: 8px;
+  
+  border: none;
+  padding: 10px;
 }
