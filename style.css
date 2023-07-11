@@ -83,11 +83,17 @@
   justify-content: center;
   align-items: center;
 }
+.pink-flower-box img{
+  padding-top: 20px;
+}
 #middle-flower {
   background: rgba(5, 151, 160, 0.15);
 }
 #last-flower {
   background: rgba(71, 125, 17, 0.15);
+}
+#last-flower img{
+  padding-bottom: 40px;
 }
 .image-tittle {
   display: flex;
@@ -206,7 +212,33 @@
   background-color: #272727;
   text-align: center;
   color: white;
+ }
+ .flower-highlights{
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* gap: 50px; */
+  margin-left: 230px;
   
+  height: 500px;
+ }
+ .flower-video-pera{
   
-  
-}
+ }
+ .flower-video-pera img{
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+  border: 3px solid salmon;
+ }
+ .flower-video video{
+  width: 450px;
+  height: 300px;
+ }
+ .add-on{
+  text-align: center;
+  color:#E55473;;
+  margin-bottom: 20px;
+
+ }
